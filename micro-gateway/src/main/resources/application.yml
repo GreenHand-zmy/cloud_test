@@ -1,0 +1,22 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: micro-gateway
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+zuul:
+  routes:
+    userApi:
+      path: /api/user/**
+      serviceId: micro-user
+    orderApi:
+      path: /api/order/**
+      serviceId: micro-order
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

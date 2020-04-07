@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: config
+  cloud:
+    config:
+      server:
+        git:
+          uri: http://localhost/peter/config-repo.git
+          username: zhangmingyuan
+          password: zmyqw1524336
+server:
+  port: 8081

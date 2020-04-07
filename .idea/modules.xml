@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/micro-common/common-api/api.iml" filepath="$PROJECT_DIR$/micro-common/common-api/api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-test.iml" filepath="$PROJECT_DIR$/cloud-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-utils/common-utils.iml" filepath="$PROJECT_DIR$/common-utils/common-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micro-common/common-dal/dal.iml" filepath="$PROJECT_DIR$/micro-common/common-dal/dal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micro-common/micro-common.iml" filepath="$PROJECT_DIR$/micro-common/micro-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micro-config/micro-config.iml" filepath="$PROJECT_DIR$/micro-config/micro-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micro-gateway/micro-gateway.iml" filepath="$PROJECT_DIR$/micro-gateway/micro-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micro-common/common-service/service.iml" filepath="$PROJECT_DIR$/micro-common/common-service/service.iml" />
+    </modules>
+  </component>
+</project>
